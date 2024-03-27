@@ -1,0 +1,51 @@
+/* Space Mono */
+@import url('https://fonts.googleapis.com/css2?family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+/* Major Mono Display */
+@import url('https://fonts.googleapis.com/css2?family=Major+Mono+Display&family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+/* Monofett */
+@import url('https://fonts.googleapis.com/css2?family=Major+Mono+Display&family=Monofett&family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+body {
+    background-color: #080b38;
+    color: white;
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    font-family: 'Space Mono';
+
+    background-color: white;
+    color: #083808;
+    position: sticky;
+    top: 0px;
+
+    font-size: 5vh;
+    padding: 0.7em;
+
+    display: flex;
+    flex-direction: row;
+
+    align-items: center;
+
+    .header_item {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+
+        color: #083808;
+        font-size: 2vh;
+        padding: 1.5vh;
+
+        text-decoration: none;
+        border-width: 0;
+        border-left: 1px;
+        border-style: solid;
+        border-color: #080b38;
+    }
+
+    .heading {
+        font-size: 5vh;
+        flex: auto;
+    }
+}
